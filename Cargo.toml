@@ -1,0 +1,13 @@
+[package]
+name = "brainfucker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+clap = "3.0.0-beta.5"
+
+[dependencies.inkwell]
+git = "https://github.com/TheDan64/inkwell"
+branch = "master"
+features = ["llvm12-0"]
